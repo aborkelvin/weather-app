@@ -1,0 +1,86 @@
+body{
+    background-repeat: no-repeat;
+    color: white;
+    background-image: url('');
+    height: 100vh;
+    margin: 0;
+}
+
+h1,h2{
+    margin: 0px;
+}
+
+h1{
+    font-size: 110px;
+    position: absolute;
+    top: 0px;
+    left: 120px;
+    
+}
+.locinfo{
+    position: relative;
+    top: 10vh;
+    left: 5vw;
+    height: 300px;
+    width: 60vw;
+}
+
+.allinfo{
+    position: relative;
+    top: 0px;
+    float: right;
+    width: 30vw;
+    height: 100%;
+    background-color: rgb(5, 5, 5,0.5);
+    padding: 40px 25px 25px 25px;
+}
+
+h2{
+    position: absolute;
+    top: 150px; 
+    left: 120px;
+    font-size: 50px;
+}
+.ddate{
+    font-size: 20px;
+    position: absolute;
+    top: 210px;
+    left: 120px;
+}
+
+input{
+    color: inherit;
+    border:none;
+    border-bottom: 1px solid white;
+    background: none;
+    outline: none;
+    width: 60%;
+    height: 30px;
+    font-size: 20px;
+}
+
+::-webkit-input-placeholder { 
+    color: white;
+  }
+ ul{
+     list-style-type: none;
+     padding: 0;
+     font-size: 20px;
+ }
+
+ li{
+     margin: 5px 0 10px 0;
+ }
+
+ h3{
+     font-size: 2.5em;
+ }
+
+ .dets{
+     position: absolute;
+     right: 80px;
+ }
+
+ p{
+     font-size: 1.5em;
+ }
