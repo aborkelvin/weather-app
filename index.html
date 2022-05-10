@@ -10,12 +10,16 @@
 </head>
 <body>
     <section class="allinfo">
-        <input type="text" name="location" id="location" placeholder="Another Location">
-        <button type="button">Submit</button>
+        <form action="" autocomplete="off" onsubmit="return false">            
+            <input type="text" name="location" id="location" placeholder="Another Location">
+            <button type="button">Search</button>
+        </form>
         <ul>
-            <li>Manhattan</li>
+            <li>New york</li>
             <li>Munich</li>
+            <li>Denver</li>
             <li>Madrid</li>
+            <li>Tokyo</li>            
         </ul>
         <hr>
         <h3>Weather details</h3>
@@ -23,6 +27,8 @@
         <p>Humidity <span class="hums dets">123</span></p>
         <p>Chance of Rain <span class="rain dets">2132</span></p>
         <p>Wind <span class="wind dets">102</span></p>
+        <br><br>
+        <hr>
     </section>    
     <section class="locinfo">
         <h1 class="temp"><span class="tempval">26</span><sup>o</sup> C</h1>
